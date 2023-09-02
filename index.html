@@ -1,87 +1,112 @@
 <!DOCTYPE>
 <html>
+
 <head>
 <title>Olomu Davis.NET Developer</title>
+<link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
+
 <header>
- <nav class="nav">
-      <ul class="nav__list">
-        <li class="nav--item">
-          <a class="nav__link" href="#about">Home</a>
+<nav class="nav">
+      <ul class="navList">
+        <li class="navItem">
+          <a class="navLink" href="#about">Home</a>
         </li>
-        <li class="nav--item">
-          <a class="nav__link" href="#skills">Skills</a>
+        <li class="navItem">
+          <a class="navLink" href="#skills">Skills</a>
         </li>
-        <li class="nav--item">
-          <a class="nav__link" href="#projects">Projects</a>
+        <li class="navItem">
+           <a class="navLink" href="#projects">Projects</a>
         </li>
-        <li class="nav--item">
-          <a class="nav__link" href="#contact">Contact</a>
+        <li class="navItem">
+          <a class="navLink" href="#contact">Contact</a>
         </li>
       </ul>
-    </nav>
+ </nav>
 </header>
 
-<section>
  <div class="photo">
       <img src="myPic.jpg" alt="" />
     </div>
+<div class="intro">
 <p>Hello, I am Olomu Davis</p>
 <p>Entry Level .NET Developer</p>
-</section>
+</div>
 
-<section>
+
+<section class="skills" id="skills">
+<div class="sectionTitle">
 <h2>Skills</h2>
+</div>
+
+<div class="skill">
 <h3>C#</h3>
+</div>
+
+<div class="skill">
 <h3>.NET</h3>
+</div>
+
+<div class="skill">
 <h3>ASP.NET</h3>
+</div>
+
+<div class="skill">
 <h3>MS SQL Server</h3>
+</div>
+
+<div class="skill">
 <h3>HTML,CSS</h3>
+</div>
+
 </section>
 
-<section>
-<h2>Who I am</h2>
-<p>Entry Level Devloper Based in UK</p>
-<p>I have at least 1(one) year experience programming in C# and .NET</p>
+<section class="intro"  id="about">
+<h2 class="sectionTitle">Who I am</h2>
+<p class="location">Entry Level Devloper Based in UK</p>
+<p class="experience">I have at least 1(one) year experience programming in C# and .NET,<br />I am currently 
+pursuing my masters degree in Computer Science at the University Of Hertfordshire.</p>
+
  <span><a class="cv" href="Resume.docx">DOWNLOAD RESUME</a></span>
 </section>
 
-<section>
-<h2>My Projects</h2>
+<section class="myProjects" id="projects">
+<h2 class="sectionTitle">My Projects</h2>
 <p> A selection of my range of work</p>
-<div>
-<div><img src="bankLoginPage.PNG" alt="" /></div>
-<div><img src="accMenu.PNG" alt="" /></div>
-<div> <img src="accDetails.PNG" alt="" /></div>
-<div> <img src="transHistory.PNG" alt="" /></div>
- <p>A console Banking Application</p>
+<div class="projectPhotos">
+<div class="screenshot"><img src="bankLoginPage.PNG" alt="" /></div>
+<div class="screenshot"><img src="accMenu.PNG" alt="" /></div>
+<div class="screenshot"> <img src="transHistory.PNG" alt="" /></div>
+ <p class="description">A console Banking Application</p>
 </div>
 
-<div>
-<div><img src="welcome.PNG" alt="" /></div>
-<div><img src="pin.PNG" alt="" /></div>
-<div><img src="transMenu.PNG" alt="" /></div>
-<div> <img src="amount.PNG" alt="" /></div>
-<div> <img src="beneficiaryBank.PNG" alt="" /></div>
-<div> <img src="bankList.PNG" alt="" /></div>
-<div> <img src="accType.PNG" alt="" /></div>
-<div> <img src="confirm.PNG" alt="" /></div>
-<p>A console ATM Application
+<div class="projectPhotos">
+<div class="screenshot"><img src="pin.PNG" alt="" /></div>
+<div class="screenshot"><img src="transMenu.PNG" alt="" /></div>
+<div class="screenshot"> <img src="amount.PNG" alt="" /></div>
+<div class="screenshot"> <img src="beneficiaryBank.PNG" alt="" /></div>
+<div class="screenshot"> <img src="bankList.PNG" alt="" /></div>
+<div class="screenshot"> <img src="accType.PNG" alt="" /></div>
+<div class="screenshot"> <img src="confirm.PNG" alt="" /></div>
+<p class="description">A console ATM Application</p>
 </dv>
+
 </section>
 
 
-<footer>
-    <a href="mailto:olomu.davis@ymail.com">olomu.davis@ymail</a>
+<footer class="footer" id="contact">
+    <a href="mailto:olomu.davis@ymail.com">olomu.davis@ymail.com</a>
     <ul>
-      <li class="social__list--item">
-        <a href="#" class="social-list__link"><i class="fa-brands fa-twitter"></i></a>
+      <li class="socialList">
+        <a href="#" class="socialListLink"><i class="fa-brands fa-twitter"></i></a>
       </li>
-      <li class="social__list--item">
-        <a href="https://github.com/devPocs?tab=repositories" class="social-list__link"><i class="fa-brands fa-github"></i></a>
+      <li class="socialList">
+        <a href="https://github.com/devPocs?tab=repositories" class="socialListLink"><i class="fa-brands fa-github"></i></a>
       </li>      
     </ul>
-  </footer>
+</footer>
+
 </body>
 </html>
