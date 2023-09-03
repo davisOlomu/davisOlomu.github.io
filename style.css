@@ -6,8 +6,25 @@ body {
  .photo img{
   height: 500px;
   width: 370px;
+  margin-left: 15em;
+  border: 2px solid white;
 }
 
- .photo{
-  background: #FEFCFF;
+ .nav ul{
+  display: flex;
+  list-style: none;
+}
+
+.nav li {
+  padding: 2em;
+  width: 4em;
+  margin-left: 10em;
+}
+
+.sectionTitle{
+  margin-left: 25em;
+}
+
+.skill{
+  margin-left: 38em;
 }
