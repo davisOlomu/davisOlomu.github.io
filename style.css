@@ -3,28 +3,61 @@ body {
     background-color: black;
 }
 
- .photo img{
+.photo img{
   height: 500px;
   width: 370px;
-  margin-left: 15em;
-  border: 2px solid white;
+  margin-left: 5em;
+  border:5px solid black; 
 }
 
  .nav ul{
   display: flex;
   list-style: none;
+  margin-left: 35em;
 }
 
 .nav li {
-  padding: 2em;
-  width: 4em;
-  margin-left: 10em;
+ margin: 2em;
+ font-family:georgia,garamond,serif;
+ font-size: 20px;
 }
 
 .sectionTitle{
-  margin-left: 25em;
+  text-align:center;
+  font-family:georgia,garamond,serif;
+  font-size: 35px;
 }
 
 .skill{
-  margin-left: 38em;
+  text-align:center;
 }
+.skills{
+
+}
+
+.description{
+   text-align:center;
+}
+
+.footer{
+   text-align:center;
+}
+
+.nav a{
+color: white;
+}
+.myself{
+   text-align:center;
+}
+
+.logo{
+font-family:georgia,garamond,serif;
+}
+
+table{
+align: center;
+margin-left: 6em;
+}
+
+
+  
