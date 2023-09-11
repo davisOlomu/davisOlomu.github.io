@@ -1,63 +1,149 @@
 body {
-    color: white;
-    background-color: black;
+    color: black;
+    background-color:black;
+}
+
+ a:link {
+      text-decoration: none;
+}
+a:hover{
+color: blue;
+}
+
+.top {
+padding-bottom: 0px;
+margin-bottom: 0px;
+color: white;
+background-color: black;
+height: 37.6em;
+}
+
+.topName{
+color: white;
+font-size: 3.5em;
+font-family:  "Corbel Light";
+line-height: 0;
+}
+
+.topText{
+font-size: 20px;
+font-family:  "Courier New";
+color: white;
+}
+
+.about {
+height: 40em;
+background-color: black;
+margin-top: -2.9em;
+}
+
+.aboutHeader{
+margin-left: 2em;
+font-size: 3.5em;
+margin-top: 2.5em;
+font-family:  "Corbel Light";
+color: white;
+}
+
+.aboutText{
+margin-left:6em;
+font-family:  "Courier New";
+font-size: 1.2em;
+margin-top: -1.8em;
+color: white;
+}
+
+
+.projects {
+font-family:  "Corbel Light";
+margin-left: 2em;
+font-size: 3.5em;
+margin-top: 2em;
+color: white;
+}
+
+.banking{
+height: 50em
+margin-top: 0em;
+padding-top: 1em;
+color: white;
+background-color: black;
+padding-bottom: 5em;
+}
+
+.banking img{
+border: 2px solid #000033;
+}
+
+.bankHeading {
+font-family:  "Bahaus 93";
+font-size: 2em;
+font-weight: 15em;
+color: white;
+}
+
+.bankdescription{
+color: white;
+font-family:  "Courier New";
+font-size: 1.2em;
+line-height: 1.5em;
+}
+
+.atmdescription{
+color: white;
+font-family:  "Courier New";
+font-size: 1.2em;
+margin-top: 2em;
+line-height: 1.5em;
+}
+
+#atm{
+padding-top: 5em;
+color: white;
+background-color: black;
+height: 50em;
+}
+
+#atm img{
+border: 2px solid #000033;
+}
+
+.atmHeading{
+font-family:  "Bahaus 93";
+font-size: 2em;
+margin-bottom: 0em;
+color: white;
 }
 
 .photo img{
-  height: 500px;
-  width: 370px;
-  margin-left: 5em;
-  border:5px solid black; 
+  height: 472.5px;
+  width: 380px;
+  margin-left: 9em;
+  margin-bottom: 0em;
+  padding-bottom: 0em;
 }
 
  .nav ul{
   display: flex;
   list-style: none;
   margin-left: 35em;
+  text-decoration:none;
+
 }
 
 .nav li {
  margin: 2em;
- font-family:georgia,garamond,serif;
+ font-family:  "Courier New";
  font-size: 20px;
+ text-decoration:none;
 }
 
-.sectionTitle{
-  text-align:center;
-  font-family:georgia,garamond,serif;
-  font-size: 35px;
+.navLink{
+  color: white;
 }
-
-.skill{
-  text-align:center;
-}
-.skills{
-
-}
-
-.description{
-   text-align:center;
-}
-
 .footer{
    text-align:center;
 }
 
-.nav a{
-color: white;
-}
-.myself{
-   text-align:center;
-}
-
-.logo{
-font-family:georgia,garamond,serif;
-}
-
-table{
-align: center;
-margin-left: 6em;
-}
 
 
-  
