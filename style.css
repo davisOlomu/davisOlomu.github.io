@@ -1,21 +1,21 @@
 body {
-    color: black;
+    color: white;
     background-color:black;
+    margin: 0;
 }
 
  a:link {
       text-decoration: none;
 }
+
 a:hover{
 color: blue;
 }
 
 .top {
-padding-bottom: 0px;
-margin-bottom: 0px;
 color: white;
 background-color: black;
-height: 37.6em;
+height: 32em;
 }
 
 .topName{
@@ -25,50 +25,60 @@ font-family:  "Corbel Light";
 line-height: 0;
 }
 
+.topName hr{
+  width: 12em;
+}
+
+
 .topText{
-font-size: 20px;
+font-size: 17px;
 font-family:  "Courier New";
 color: white;
 }
 
 .about {
 height: 40em;
-background-color: black;
-margin-top: -2.9em;
 }
 
 .aboutHeader{
-margin-left: 2em;
+margin-left: 1.5em;
 font-size: 3.5em;
-margin-top: 2.5em;
 font-family:  "Corbel Light";
 color: white;
 }
 
 .aboutText{
-margin-left:6em;
+margin-left:5.6em;
 font-family:  "Courier New";
-font-size: 1.2em;
+font-size: 16px;
 margin-top: -1.8em;
+margin-bottom: 5em;
 color: white;
+line-height: 1.5em;
 }
 
+.resume{
+margin-left:4em;
+border: 2px solid white;
+padding: 1em;
+color: white;
+font-family:  "Courier New";
+font-size: 1.2em
+}
 
-.projects {
+.projectHeader {
 font-family:  "Corbel Light";
-margin-left: 2em;
+margin-left: 1.5em;
 font-size: 3.5em;
-margin-top: 2em;
 color: white;
 }
 
 .banking{
-height: 50em
-margin-top: 0em;
-padding-top: 1em;
+height: 52em;
 color: white;
 background-color: black;
-padding-bottom: 5em;
+margin-bottom: 5em;
+
 }
 
 .banking img{
@@ -80,55 +90,67 @@ font-family:  "Bahaus 93";
 font-size: 2em;
 font-weight: 15em;
 color: white;
+margin-left: 1em;
 }
 
 .bankdescription{
 color: white;
 font-family:  "Courier New";
-font-size: 1.2em;
+font-size: 16px;
 line-height: 1.5em;
+margin-left: 2em;
 }
 
 .atmdescription{
 color: white;
 font-family:  "Courier New";
-font-size: 1.2em;
+font-size: 16px;
 margin-top: 2em;
 line-height: 1.5em;
 }
 
-#atm{
+.atm{
 padding-top: 5em;
 color: white;
 background-color: black;
-height: 50em;
+height: 40em;
 }
 
-#atm img{
+.atm img{
 border: 2px solid #000033;
 }
+
+hr{
+ width: 77em;
+}
+
+
 
 .atmHeading{
 font-family:  "Bahaus 93";
 font-size: 2em;
 margin-bottom: 0em;
 color: white;
+margin-left:0.2em;
 }
 
 .photo img{
-  height: 472.5px;
-  width: 380px;
+  height: 333px;
+  width: 268px;
   margin-left: 9em;
-  margin-bottom: 0em;
-  padding-bottom: 0em;
 }
 
  .nav ul{
-  display: flex;
   list-style: none;
-  margin-left: 35em;
+  margin-left: 2.5em;
   text-decoration:none;
+ display: flex;
+}
 
+.nav img{
+width:2.5em;
+height: 2.5em;
+margin-right: 18em;
 }
 
 .nav li {
@@ -141,6 +163,26 @@ color: white;
 .navLink{
   color: white;
 }
+
+
+.banksource{
+margin-left: 1.8em;
+border: 2px solid white;
+color: white;
+font-family:  "Courier New";
+font-size: 1.2em;
+padding: 0.8em;
+margin-bottom: 10em;
+}
+
+.atmsource{
+border: 2px solid white;
+color: white;
+font-family:  "Courier New";
+font-size: 1.2em;
+padding: 0.8em;
+}
+
 .footer{
    text-align:center;
 }
