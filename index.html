@@ -9,7 +9,7 @@
 
 <body>
 
-<section class="top">
+<section class="home" id="home">
 <header>
 <table style = "table-layout:fixed;width:10px;">
  <td width = "10"><nav class="nav">
@@ -17,7 +17,7 @@
         <li> <img src="logo.png">
         </li>
         <li class="navItem">
-          <a class="navLink" href="">HOME</a>
+          <a class="navLink" href="#home">HOME</a>
         </li>
         <li class="navItem">
           <a class="navLink" href="#about">ABOUT</a>
@@ -34,14 +34,14 @@
  </tr>
 </table>
 </header>
-<table style = "table-layout:fixed;width:600px;margin-left: 12em;">
+<table style = "table-layout:fixed;width:600px;margin-left: 12em;margin-top: -3em;">
  <tr height = "30">
  <td width = "400">
-<p class="topText">Hi, my name is</p>
-<h2 class="topName">Olomu Davis</h2>
-<p class="topText">Entry Level .NET Developer in Hertfordshire</p></td>
+<p class="homeText">Hi, my name is</p>
+<h2 class="homeName">Olomu Davis</h2>
+<p class="homeText">Entry Level .NET Developer in Hertfordshire</p></td>
 <td width = "500";margin-top: 25em;><div class="photo">
-      <img src="myPic3.png" alt="" />
+      <img src="pixx.png" alt="" />
     </div></td>
  </tr>
 </table>
@@ -50,23 +50,22 @@
 <section class="about" id="about">
 <h2 class="aboutHeader">About</h2>
 <p class="aboutText"> My name is Olomu Davis. I'm an Entry Level .NET developer in Hertfordshire, with roots in technical support.</br>  I am passionate about technology.</br></br> 
-I'm currently pursuing my Master’s Degree in Computer Science at the University Of Hertfordshire, Hatfield.</br></br>My software roots are in C#, .NET and MS SQL Server of which I am self-taught. My interest in software development came </br>during my time as an IT support professional, I supported a Local IIS web server that had a MS SQL database.</br> During work, I frequently ran into errors like "Unhandled Exceptions" and other .NET related errors and usually will seek the</br> help of one of the software developers to fix these problems, as a result of this I became interested in the subject and </br>finally picked up the C# programming language. I also learned MS SQL query language, to be able to interact with the </br>MS SQL Server database effectively.</br></br>
+I'm currently pursuing my Master’s Degree in Computer Science at the University Of Hertfordshire, Hatfield.</br></br>My software roots are in C#, .NET and MS SQL Server of which I am self-taught. My interest in software development</br> came during my time as an IT support professional, I supported a Local IIS web server that had a MS SQL database.</br> During work, I frequently ran into errors like "Unhandled Exceptions" and other .NET related errors and usually will seek the</br> help of one of the software developers to fix these problems, as a result of this I became interested in the subject</br> and finally picked up the C# programming language. I also learned MS SQL query language, to be able to interact with</br> the MS SQL Server database effectively.</br></br>
 I would welcome an opportunity to improve my skills in the above software stack and also other software development areas.
 </p>
-<a href="https://" class="resume">DOWNLOAD RESUME</a>     
+<a href="Resume.pdf" class="resume" target="blank">View Resume</a>     
 </section>
 
-<hr/>
 
-<section class="project">
+<section class="project" id="project">
 <h2 class="projectHeader">Projects</h2>
 <section class="banking">
 <table style = "table-layout:fixed;width:200px;margin-left:1em;">
  <tr height = "30">
  <td width = "515">
 <h2 class="bankHeading">Bank Application</h2>
-<p class="bankdescription"> This application performs basic banking operations.</br></br>Built with C# and talks to MS SQL data base using the ADO.NET connected layer model.</br></br>The menu designs was done with a nugget package known as Spectre Console.</br></br></br></br></p>
-<a href="https://github.com/davisOlomu/ConsoleBanking" class="banksource">View Source</a></td>
+<p class="bankdescription"> This application performs basic banking operations.</br></br>Built with C# and MS SQL Database.</br></br>The menu designs was done with a nugget package known as Spectre Console.</br></br></br></br></p>
+<a href="https://github.com/davisOlomu/ConsoleBanking" target="blank" class="banksource">View Project</a></td>
  <td width = "351"><div class="screenshot"><img src="bankLoginPage.PNG" alt="" /></div></td>
  <td width = "200"><div class="screenshot"><img src="accMenu.PNG" alt="" /></div></td>
  </tr>
@@ -80,12 +79,12 @@ I would welcome an opportunity to improve my skills in the above software stack 
 </section>
 <hr/>
 <section class="atm">
-<table style = "table-layout:fixed;width:300px;margin-left: 2em;">
+<table style = "table-layout:fixed;width:300px;margin-left: 3.3em;">
  <tr height = "30">
 <td width = "597">
  <h2 class="atmHeading">ATM Application</h2>
-<p class="atmdescription">This application performs basic Automated</br> Teller Machine(ATM) operations.</br></br>Built with  C# and talks to MS SQL data base using </br>ADO.NET connected layer model.</br></br>The menu designs was done with a nugget package known as Spectre Console.</br></br></br></br></p>
-<a href="https://github.com/davisOlomu/ConsoleATM" class="atmsource">View Source</a></td>
+<p class="atmdescription">This application performs basic Automated</br> Teller Machine(ATM) operations.</br></br>Built with  C# and and MS SQL Database.</br></br>The menu designs was done with a nugget package known as Spectre Console.</br></br></br></br></p>
+<a href="https://github.com/davisOlomu/ConsoleATM" target="blank" class="atmsource">View Project</a></td>
  <td width = "305"><div class="screenshot"><img src="transMenu.PNG" alt="" /></div>
 </td>
  <td width = "200">
@@ -93,16 +92,12 @@ I would welcome an opportunity to improve my skills in the above software stack 
  </tr>
 </table>
 
-<table style = "table-layout:fixed;width:300px;margin-left: 39.5em; margin-top: -3.2em;">
+<table style = "table-layout:fixed;width:300px;margin-left: 40.8em; margin-top: -3.2em;">
  <tr height = "30">
  <td width = "307"><div class="screenshot"> <img src="beneficiaryBank.PNG" alt="" /></div></td>
- <td width = "416"><div class="screenshot"> <img src="bankList.PNG" alt="" /></div></td>
+ <td width = "380"><div class="screenshot"> <img src="bankList.PNG" alt="" /></div></td>
  </tr>
 </table>
-
-</section>
-
-<section class"library">
 
 <table style = "table-layout:fixed;width:300px;margin-left: 39.08em; margin-top: -0.2em;">
  <tr height = "30">
@@ -112,9 +107,10 @@ I would welcome an opportunity to improve my skills in the above software stack 
 </table>
 </section>
 </section>
-<hr/>
-<footer class="footer" id="contact">
-    <a href="mailto:olomu.davis@ymail.com">olomu.davis@ymail.com</a>
+
+<section class="contact" id="contact">
+<footer>
+    <a href="mailto:olomu.davis@ymail.com" class="mail">olomu.davis@ymail.com</a>
     <ul>
       <li class="socialList">
         <a href="#" class="socialListLink"><i class="fa-brands fa-twitter"></i></a>
@@ -124,5 +120,6 @@ I would welcome an opportunity to improve my skills in the above software stack 
       </li>      
     </ul> 
 </footer>
+</section>
 </body>
 </html>

@@ -1,7 +1,7 @@
 body {
     color: white;
     background-color:black;
-    margin: 0;
+    margin: 0 auto;
 }
 
  a:link {
@@ -12,25 +12,25 @@ a:hover{
 color: blue;
 }
 
-.top {
+.home {
 color: white;
 background-color: black;
-height: 32em;
+height: 30em;
 }
 
-.topName{
+.homeName{
 color: white;
 font-size: 3.5em;
 font-family:  "Corbel Light";
 line-height: 0;
 }
 
-.topName hr{
+.homeName hr{
   width: 12em;
 }
 
 
-.topText{
+.homeText{
 font-size: 17px;
 font-family:  "Courier New";
 color: white;
@@ -38,32 +38,36 @@ color: white;
 
 .about {
 height: 40em;
+background-color: white;
+width:83em;
 }
 
 .aboutHeader{
-margin-left: 1.5em;
+padding-top: 1em;
+margin-left: 1.7em;
 font-size: 3.5em;
 font-family:  "Corbel Light";
-color: white;
+color: black;
 }
 
 .aboutText{
 margin-left:5.6em;
 font-family:  "Courier New";
-font-size: 16px;
+font-size: 17px;
 margin-top: -1.8em;
-margin-bottom: 5em;
-color: white;
+margin-bottom: 3.5em;
+color: black;
 line-height: 1.5em;
 }
 
 .resume{
-margin-left:4em;
-border: 2px solid white;
+margin-left:5.1em;
+border: 2px solid black;
 padding: 1em;
-color: white;
+color: black;
 font-family:  "Courier New";
-font-size: 1.2em
+font-size: 1.2em;
+padding-bottom: 1em;
 }
 
 .projectHeader {
@@ -74,7 +78,7 @@ color: white;
 }
 
 .banking{
-height: 52em;
+height: 45em;
 color: white;
 background-color: black;
 margin-bottom: 5em;
@@ -83,6 +87,7 @@ margin-bottom: 5em;
 
 .banking img{
 border: 2px solid #000033;
+overflow: hidden;
 }
 
 .bankHeading {
@@ -114,17 +119,17 @@ padding-top: 5em;
 color: white;
 background-color: black;
 height: 40em;
+
 }
 
 .atm img{
-border: 2px solid #000033;
+ border: 2px solid #000033;
+ opacity:5;
 }
 
 hr{
- width: 77em;
+ width: 75em;
 }
-
-
 
 .atmHeading{
 font-family:  "Bahaus 93";
@@ -135,7 +140,7 @@ margin-left:0.2em;
 }
 
 .photo img{
-  height: 333px;
+  height: 350px;
   width: 268px;
   margin-left: 9em;
 }
@@ -151,6 +156,7 @@ margin-left:0.2em;
 width:2.5em;
 height: 2.5em;
 margin-right: 18em;
+ backface-visibility:hidden;
 }
 
 .nav li {
@@ -183,9 +189,19 @@ font-size: 1.2em;
 padding: 0.8em;
 }
 
-.footer{
-   text-align:center;
+.contact{
+background-color: white;
+height: 10em;
+width:83em;
+text-align:center;
 }
+
+.mail{
+color: black;
+font-size: 20px;
+margin-top: -1em;
+}
+
 
 
 
