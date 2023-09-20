@@ -26,12 +26,6 @@ font-family:  "Corbel Light";
 line-height: 0;
 }
 
-.homeName hr{
- width: 12em;
-margin-left: 3em;
-}
-
-
 .homeText{
 font-size: 17px;
 font-family:  "Courier New";
@@ -39,7 +33,7 @@ color: white;
 }
 
 .about {
-height: 50em;
+height: 45em;
 background-color: white;
 width:83em;
 }
@@ -58,13 +52,13 @@ margin-left:6.5em;
 font-family:  "Courier New";
 font-size: 17px;
 margin-top: -1.8em;
-margin-bottom: 3.5em;
+margin-bottom: 5em;
 color: black;
 line-height: 1.5em;
 }
 
 .resume{
-margin-left:5em;
+margin-left:5.5em;
 border: 2px solid black;
 padding: 1em;
 color: black;
@@ -76,7 +70,7 @@ padding-bottom: 1em;
 .project{
 height: 100em;
 width: 75em;
-padding-bottom: 7em;
+padding-bottom: 3em;
 }
 
 .projectHeader {
@@ -96,7 +90,6 @@ margin-bottom: 5em;
 
 .banking img{
 border: 2px solid #000033;
-overflow: hidden;
 }
 
 .bankHeading {
@@ -105,6 +98,7 @@ font-size: 2em;
 font-weight: 15em;
 color: white;
 margin-left: 1em;
+padding-bottom: 1em;
 }
 
 .bankdescription{
@@ -124,7 +118,7 @@ line-height: 1.5em;
 }
 
 .atm{
-padding-top: 5em;
+padding-top: 2em;
 color: white;
 background-color: black;
 height: 40em;
@@ -136,7 +130,8 @@ height: 40em;
 }
 
 hr{
- width: 70em;
+ width: 83em;
+
 }
 
 .atmHeading{
@@ -145,6 +140,7 @@ font-size: 2em;
 margin-bottom: 0em;
 color: white;
 margin-left:0.2em;
+padding-bottom: 0.2em;
 }
 
 .photo img{
