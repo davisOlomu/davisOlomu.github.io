@@ -52,6 +52,7 @@ color: black;
 }
 
 .aboutText{
+width: 75em;
 margin-left:3em;
 font-family:  "Courier New";
 font-size: 17px;
@@ -73,6 +74,7 @@ padding-bottom: 1em;
 
 .project{
 height: 100em;
+width: 75em;
 padding-bottom: 7em;
 }
 
