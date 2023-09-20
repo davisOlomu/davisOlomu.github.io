@@ -46,7 +46,7 @@ width:83em;
 
 .aboutHeader{
 padding-top: 1em;
-margin-left: 1em;
+margin-left: 2em;
 font-size: 3.5em;
 font-family:  "Corbel Light";
 color: black;
@@ -54,7 +54,7 @@ color: black;
 
 .aboutText{
 width: 65em;
-margin-left:5em;
+margin-left:6.5em;
 font-family:  "Courier New";
 font-size: 17px;
 margin-top: -1.8em;
@@ -64,7 +64,7 @@ line-height: 1.5em;
 }
 
 .resume{
-margin-left:3em;
+margin-left:5em;
 border: 2px solid black;
 padding: 1em;
 color: black;
@@ -81,7 +81,7 @@ padding-bottom: 7em;
 
 .projectHeader {
 font-family:  "Corbel Light";
-margin-left: 1em;
+margin-left: 2em;
 font-size: 3.5em;
 color: white;
 }
