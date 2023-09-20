@@ -23,6 +23,10 @@ a:hover{
 color: red;
 }
 
+.home{
+scroll-margin-top: 140px;
+}
+
 
 header a:hover{
 border: 2px solid white;
@@ -36,7 +40,6 @@ opacity: 0.9;
 color: white;
 background-color: black;
 height: 25em;
-scroll-margin-bottom: 500px;
 }
 
 .topName{
@@ -56,7 +59,7 @@ color: white;
 height: 45em;
 background-color: white;
 width:83em;
-scroll-margin-bottom: 100px;
+scroll-margin-top: 90px;
 }
 
 .aboutHeader{
@@ -65,6 +68,7 @@ margin-left: 2em;
 font-size: 3.5em;
 font-family:  "Corbel Light";
 color: black;
+
 }
 
 .aboutText{
@@ -92,7 +96,7 @@ padding-bottom: 1em;
 height: 100em;
 width: 75em;
 padding-bottom: 3em;
-scroll-margin-top: 100px;
+scroll-margin-top: 130px;
 }
 
 .projectHeader {
