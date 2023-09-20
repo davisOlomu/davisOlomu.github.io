@@ -1,12 +1,12 @@
 body {
-    color: white;
-    background-color:black;
-    margin: 0 auto;
-    opacity: 15;
+color: white;
+background-color:black;
+margin: 0 auto;
+opacity: 15;
 }
 
  a:link {
-      text-decoration: none;
+text-decoration: none;
 }
 
 a:hover{
@@ -27,7 +27,7 @@ line-height: 0;
 }
 
 .homeName hr{
-  width: 12em;
+ width: 12em;
 }
 
 
@@ -44,15 +44,15 @@ width:82.5em;
 }
 
 .aboutHeader{
-padding-top: 0.5em;
-margin-left: 0.5em;
+padding-top: 1em;
+margin-left: 1em;
 font-size: 3.5em;
 font-family:  "Corbel Light";
 color: black;
 }
 
 .aboutText{
-margin-left:2em;
+margin-left:3em;
 font-family:  "Courier New";
 font-size: 17px;
 margin-top: -1.8em;
@@ -62,7 +62,7 @@ line-height: 1.5em;
 }
 
 .resume{
-margin-left:2em;
+margin-left:3em;
 border: 2px solid black;
 padding: 1em;
 color: black;
@@ -78,7 +78,7 @@ padding-bottom: 7em;
 
 .projectHeader {
 font-family:  "Corbel Light";
-margin-left: 0.5em;
+margin-left: 1em;
 font-size: 3.5em;
 color: white;
 }
@@ -145,16 +145,16 @@ margin-left:0.2em;
 }
 
 .photo img{
-  height: 380px;
-  width: 290px;
-  margin-left: 9em;
+height: 380px;
+width: 290px;
+margin-left: 9em;
 }
 
  .nav ul{
-  list-style: none;
-  margin-left: 2.5em;
-  text-decoration:none;
- display: flex;
+list-style: none;
+margin-left: 2.5em;
+text-decoration:none;
+display: flex;
 }
 
 .nav img{
@@ -165,14 +165,14 @@ margin-right: 18em;
 }
 
 .nav li {
- margin: 2em;
- font-family:  "Courier New";
- font-size: 20px;
- text-decoration:none;
+margin: 2em;
+font-family:  "Courier New";
+font-size: 20px;
+text-decoration:none;
 }
 
 .navLink{
-  color: white;
+ color: white;
 }
 
 .banksource{
