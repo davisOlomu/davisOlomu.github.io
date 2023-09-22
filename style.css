@@ -227,6 +227,7 @@ text-align:center;
 display: flex;
 list-style: none; 
 margin-left: 35em;
+margin-top: 1em;
 }
 
 .mail{
@@ -245,11 +246,23 @@ font-size: 22px;
 color: black;
 font-family:  "Courier New";
 font-size: 18px;
+margin-top: 1.2em;
 }
 
-copyrightname{
+.copyrightname{
 font-weight: bold;
+font-family:  "Corbel Light";
+font-size: 20px;
 }
+
+
+.contact a:hover{
+border: 1px solid black;
+padding: 0.1em;
+background-color: black;
+color: white;
+}
+
 
 .dataLayer{
 font-family:  "Courier New";
