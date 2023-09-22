@@ -223,6 +223,12 @@ width:83em;
 text-align:center;
 }
 
+.contact ul{
+display: flex;
+list-style: none; 
+margin-left: 35em;
+}
+
 .mail{
 color: black;
 font-size: 22px;
@@ -231,8 +237,21 @@ justify-content: center;
 
 }
 
+.socialList{
+margin: 1em;
+font-size: 22px;
+}
 
 
+.copyright{
+color: black;
+font-family:  "Courier New";
+font-size: 18px;
+}
+
+.rightname{
+font-weight: bold;
+}
 
 .dataLayer{
 font-family:  "Courier New";
