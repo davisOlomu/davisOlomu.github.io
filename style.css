@@ -5,7 +5,6 @@ margin: 0 auto;
 opacity: 15;
 }
 
-
 header{
 position: fixed;
 height: 6em;
@@ -24,9 +23,8 @@ color: blue;
 }
 
 .home{
-scroll-margin-top: 140px;
+scroll-margin-top: 190px;
 }
-
 
 header a:hover{
 border: 2px solid white;
@@ -56,7 +54,7 @@ color: white;
 }
 
 .about {
-height: 45em;
+height: 42em;
 background-color: white;
 width:83em;
 scroll-margin-top: 42px;
@@ -218,7 +216,7 @@ padding: 0.8em;
 }
 
 .contact{
-padding-top: 3em;
+padding-top: 2em;
 background-color: white;
 height: 10em;
 width:83em;
@@ -227,13 +225,37 @@ text-align:center;
 
 .mail{
 color: black;
-font-size: 20px;
+font-size: 22px;
+font-weight: bold;
+justify-content: center;
+
 }
+
 
 .dataLayer{
 font-family:  "Courier New";
 font-size: 18px;
 }
 
+.contact ul{
+display: flex;
+list-style: none; 
+margin-left: 35em;
+}
 
+.socialList{
+margin: 1em;
+font-size: 22px;
+}
+
+
+.copyright{
+color: black;
+font-family:  "Courier New";
+font-size: 18px;
+}
+
+.rightname{
+font-weight: bold;
+}
 
